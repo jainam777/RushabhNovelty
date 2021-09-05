@@ -1,0 +1,44 @@
+product table_name
+product_id pk
+name
+category_id fk
+subcategory_id fk
+type
+description
+price
+rating
+color_id fk
+material
+size
+stock
+weight
+photo_id fk
+
+photos
+photo_id pk
+p1
+p2
+p3
+p4
+color_id fk
+
+category
+category_id pk
+category_name
+
+subcategory
+subcategory_id pk
+subcategory_name
+category_id fk
+
+product_color
+color_id pk
+c1
+c2
+c3
+c4
+
+
+
+
+create table products(product_id int PRIMARY KEY, product_name varchar(500), category_id int, subcategoty_id int, product_type varchar(500), product_description varchar(800), weight double(200), material varchar(500), product_price double(500), color_id int, stock int,size varchar(500));

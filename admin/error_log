@@ -1,0 +1,1 @@
+[16-Aug-2021 12:02:34 UTC] PHP Warning:  unlink(../images/product_images/): Is a directory in /home/rushabhnovelty/public_html/admin/update_image.php on line 24
